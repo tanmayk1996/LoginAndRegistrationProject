@@ -19,7 +19,7 @@ import com.fujitsu.LoginAndRegister.DAO.UserControllerDAO;
 @WebServlet("/UserController")
 public class UserController extends HttpServlet {
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
 		UserControllerDAO dao = new UserControllerDAO();
